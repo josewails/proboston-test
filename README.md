@@ -25,6 +25,7 @@ With docker and docker-compose installed follow the following the steps:
 
 ### The normal way. 
 
++ RUN `pip install -r requirements.txt` to install all requirements.
 + Run `python manage.py migrate` to create the db. 
 + RUN `python manage.py runserver` to run the server. 
 + Head over to [https://localhost:8000](https://localhost:8000) to add new records.
